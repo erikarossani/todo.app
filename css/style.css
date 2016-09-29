@@ -31,6 +31,7 @@ h4{
 .principal .formulario {
     color: #212121;
     text-align: center;
+    margin-top: 30px;
 }
 
 .principal .formulario textarea[type=text] {
@@ -65,6 +66,7 @@ h4{
     list-style: none;
     height: 200px;
     overflow-y: scroll;
+    margin-top: 30px;
 }
 
 ::-webkit-scrollbar-track {
