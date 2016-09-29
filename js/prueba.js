@@ -37,7 +37,6 @@ function agregarTarea(){
 function comprobarInput(){
     tareaInput.className ="";
     tareaInput.setAttribute("placeholder", "agregar una tarea");
-
 }
 
 function eliminarTarea(e){

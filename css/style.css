@@ -42,8 +42,9 @@ h4{
 }
 
 .principal .formulario textarea[type=text].error {
-    border: 5px solid #4A96AD;
-    color: red;
+    border: 5px solid  #4A96AD;
+    color: #4A96AD;
+    font-weight: bolder;
 }
 
 .principal .formulario .boton {
