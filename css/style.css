@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F3EE;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h4{
+   background:  #4A96AD;
+}
+
+.wrap {
+    margin: auto;
+    max-width: 800px;
+    width: 90%;
+}
+
+.principal {
+    background:  #7D1935;
+    color: #fff;
+    width: 100%;
+}
+
+.principal .formulario {
+    color: #212121;
+    text-align: center;
+}
+
+.principal .formulario textarea[type=text] {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.principal .formulario textarea[type=text].error {
+    border: 5px solid #4A96AD;
+    color: red;
+}
+
+.principal .formulario .boton {
+    border-radius: 10px;
+    background: none;
+    border: 1px solid #4A96AD;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+    border: 1px solid #fff;
+}
+
+/* - Tareas - */
+.tareas .lista {
+    list-style: none;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 9px rgb(0,0,0);
+    border-radius: 3em;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #4A96AD;
+    border-radius: 1em;
+}
+
+.tareas .lista li {
+    border-bottom: 1px solid #B6B6B6;
+
+}
+
+.tareas .lista li a {
+    color: #212121;
+    display: block;
+    padding: 20px 0;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.tareas .lista li a:hover {
+    text-decoration: line-through;
+}
+
+
+@media(min-width: 680px){  
+    .tareas .lista {
+    overflow-y: hidden;
+    }
+}
