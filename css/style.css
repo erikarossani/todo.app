@@ -1,9 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 body {
@@ -13,7 +10,8 @@ body {
 }
 
 h4{
-   background:  #4A96AD;
+   background:  #dbc3d0;
+   color:#7D1935; 
 }
 
 .wrap {
@@ -23,7 +21,7 @@ h4{
 }
 
 .principal {
-    background:  #7D1935;
+    background:  #5e0231;
     color: #fff;
     width: 100%;
 }
@@ -42,15 +40,14 @@ h4{
 }
 
 .principal .formulario textarea[type=text].error {
-    border: 5px solid  #4A96AD;
-    color: #4A96AD;
+    border: 5px solid  #dbc3d0;
     font-weight: bolder;
 }
 
 .principal .formulario .boton {
     border-radius: 10px;
     background: none;
-    border: 1px solid #4A96AD;
+    border: 1px solid #dbc3d0;
     color: #fff;
     display: inline-block;
     font-size: 16px;
@@ -80,7 +77,7 @@ h4{
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #4A96AD;
+    background-color: #5e0231;
     border-radius: 1em;
 }
 
